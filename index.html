@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Super Mario Bros - O Filme</title>
+</head>
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./assets/videos/video-mario.mp4">
+        </video>
+    </div> 
+
+    <header class="cabecalho">
+        <a href="">
+            <img class="logo" src="./assets/images/logo-chapeu-mario.png" alt="chapeu mario">
+        </a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Detalhes</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main class="container">
+
+           <div class="informacoes">
+            <img class="imagem-titulo" src="./assets/images/titulo.png" alt="super mario bros">
+            <p class="info">
+                Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.
+            </p>
+            <button class="botao-trailer">Veja o trailer</button>
+           </div>
+           <img class="mario" src="./assets/images/super-mario-chars.png" alt="mario e amigos pulando">
+
+         <div class="modal ">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">❌</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div> 
+        </div> 
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
